@@ -61,7 +61,7 @@ function LoggerUI()
 
    -- how to use
    local TabHow = Window:CreateTab("How to use", 0)
-   local Paragraph = TabHow:CreateParagraph({Title = "Instructions", Content = "This script copies the link of selected IDs for easy copy-and-paste. Just paste it from clipboard into the chat to copy a decal"})
+   local Paragraph = TabHow:CreateParagraph({Title = "Instructions", Content = "This script copies the link of selected IDs for easy copy-and-paste. Just paste it from clipboard into the chat to copy an ID inside of link"})
 
    -- logger
    local TabLog = Window:CreateTab("Logger", 0) -- Title, Image
